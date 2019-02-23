@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+html{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  min-width: 260px;
+  color: #444;
+}
+#title{
+  text-shadow: 2px 2px 4px #555;
+}
+#main{
+  margin: 30px auto; 
+  padding: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #ddd;
+}
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#image{
+  border-radius: 3px;
+}
+#img-div{
+  margin: -5px;
+  margin-top: 10px;
+  width: 100%;
+  border: 5px solid #fff;
+  background: white;
+  border-radius: 3px;
+}
+#img-caption{
+  margin: 15px;
+}
+#tribute-info{
+  margin-top: 50px;
+}
+#headline{
+  margin-top: 30px;
+  text-align: center;
+}
+ul{
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+li{
+  margin: 10px;
+}
+.skyblue{
+  color: skyblue;
+}
+.small{
+  font-variant: small-caps;
+}
+.center{
+  text-align: center;
+}
+
+<html id="main">
+  <body>
+  <h1 id="title">Elon Musk</h1>
+  <h4>The man who led the electric-vehicles revolution</h4>
+  <div id="img-div">
+    <img id="image" src="https://farm5.staticflickr.com/4310/36187622775_3ea1d22af3_c.jpg" alt="Picture from Flickr.com"></img>
+    <div id="img-caption">
+      Elon Musk responds to criticism from Mark Zuckerberg about the future of artificial Intelligence.
+    </div>
+  </div>
+  <div id="tribute-info">
+    <p>Elon Musk is a world class entrepreneur. He has contributed to the development and operations in several businesses that include electronic purchasing, travelling in vehicles, and the exploration of space.</p>
+    <ul>
+      <h3 id="headline">Here's a time line of Mr. Musk's life:</h3>
+      <li><strong>1971</strong> - Born in Pretoria, Transvaal, South Africa</li>
+      <li><strong>1988</strong> - Moved to Canada to attend Queen's University. Transferred two years later to the University of Pennsylvania, where he received an economics degree from the Wharton School and a degree in physics from the College of Arts and Sciences.</li>
+      <li><strong>1995</strong> - Began a Ph.D. in applied physics and material sciences at Standford University, but dropped out after two days to pursue an entrepreneurial career.</li>
+      <li><strong>1999</strong> - Zip2, a software company he co-founded, was acquired by Compaq for $340 million.</li>
+      <li><strong>2000</strong> - X.com, an online bank he founded, merged with Confinity and later that year became PayPal.</li>
+      <li><strong>2002</strong> - Founded SpaceX, an aerospace manufacturer and space transport services company, of which he is CEO and lead designer. PayPal was bought by eBay for $1.5 billion.</li>
+      <li><strong>2003</strong> - Helped fund Tesla, Inc. an electric vehicle and solar panel manufacturer and becomes CEO and product architect</li>
+      <li><strong>2006</strong> - Inspired the creation of SolarCity, a solar energy services company that is now a subsidiary of Tesla, and operates as its chairman.</li>
+      <li><strong>2015</strong> - Founded OpenAI, a nonprofit research company that aims to promote friendly artificial intelligence.</li>
+      <li><strong>2016</strong> - Co-founded Neuralink, a neurotechnology company focused on developing brain-computer interfaces, and is its CEO. Founded Boring Company, an infrastructure and tunnel-construction company.</li>
+      <li><strong>Present</strong> - Currently devotes a majority of his time towards the improvement of production and development at Tesla, Inc. and on his twitter account.</li>
+    </ul>
+    <h3>If you have time, you should <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">read more about Elon Musk's life and accomplishments</a> on his Wikipedia page.</h3>
+  </div>
+  </body>
+</html>
